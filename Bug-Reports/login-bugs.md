@@ -19,3 +19,31 @@ iPhone 15, iOS 17, Safari browser
 
 Priority:
 High
+
+BUG002 - No validation error message displayed for invalid email input
+
+Precondition:
+
+User is on the login page  
+
+
+
+Steps to Reproduce:
+
+Enter an invalid email address (e.g., abc#gmail.com)  
+
+Enter a valid password  
+
+Click the login button  
+
+
+
+Expected Result:
+
+The system should display a validation error message for invalid email and prevent login  
+
+
+
+Actual Result:
+
+The system prevents login but does not display any validation error message  
