@@ -286,3 +286,24 @@ Steps:
 
 Expected Result:
 The system should reject the password and display a validation message such as "Invalid password"  
+## TC023 - Verify signup page responsiveness on small screens
+
+Precondition:
+User opens the signup page on a smartphone browser  
+
+Steps:
+1. Load the signup page  
+
+Expected Result:
+The page should display correctly without layout issues, with all elements visible and usable  
+## TC024 - Verify usability in dark mode
+
+Precondition:
+User is on the signup page  
+
+Steps:
+1. Click the theme toggle button  
+
+Expected Result:
+The theme switches to dark mode and all elements remain readable, properly aligned, and accessible  
+
