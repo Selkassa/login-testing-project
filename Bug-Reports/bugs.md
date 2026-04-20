@@ -146,4 +146,21 @@ Actual Result:
 The system allows registration with the existing email  
 
 Priority: High
+BUG010 — Strong (Security)
+## BUG010 - Password is visible in plaintext
+
+Precondition:
+User is on the signup page  
+
+Steps to Reproduce:
+1. Enter an email  
+2. Enter a password  
+
+Expected Result:
+Password characters should be masked (e.g., dots/asterisks)  
+
+Actual Result:
+Password is displayed in plain text  
+
+Priority: High
 
